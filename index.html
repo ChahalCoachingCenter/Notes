@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C3</title>
+    <link rel="shortcut icon" href="./logo.jpg" type="jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: #9ccc66;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="logo" width="80" height="80"
+                    style="border-radius: 100%;margin: 10px;">Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://chahal-coaching-center-c3.business.site/">C3 Main Website</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <button class="btn btn-outline-success m-3" type="button" onclick="backbtn()">Back</button>
+    <div style="display: flex;justify-content: space-around;padding: 20px;" id="firstdivv">
+        <button class="btn btn-primary" style="height: 200px;width: 40%;border-radius: 20px;" onclick="btnfunc7th(7)">Class 7th</button>
+        <button class="btn btn-primary" style="height: 200px;width: 40%;border-radius: 20px;" onclick="btnfunc7th(8)">Class 8th</button>
+    </div>
+    <div id="secdivv"></div>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
